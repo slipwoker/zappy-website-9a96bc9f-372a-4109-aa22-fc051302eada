@@ -869,11 +869,9 @@
     <section class="featured-products-section" id="featured-products" data-zappy-dynamic="true">
       <div class="container">
         <h2 class="section-title">מוצרים מומלצים</h2>
-        <div class="product-grid featured-grid" id="zappy-featured-products">
-          <div class="loading-products">טוען מוצרים...</div>
-        </div>
-        <div class="view-all-products">
-          <a href="/products" class="btn btn-primary">צפה בכל המוצרים →</a>
+        <div class="product-grid featured-grid" id="zappy-featured-products"><div class="no-featured-products">עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!</div></div>
+        <div class="view-all-products" style="text-align: center !important; display: flex !important; justify-content: center !important; align-items: flex-start !important; width: 100% !important;">
+          <a href="/products" class="btn btn-outline btn-secondary" data-element-type="button" data-element-id="btn-1776746328872-elpz86ai6" data-native-element="true" style="outline: none; color: rgb(184, 111, 82) !important; border-color: rgb(184, 111, 82) !important; background-color: transparent !important; background-image: none !important;">צפה בכל המוצרים →</a>
         </div>
       </div>
     </section>
@@ -1021,98 +1019,13 @@
   <!-- Bottom torn-paper divider transitioning to dark testimonial section -->
   <div class="index-process-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,72 L0,28 Q36,22 72,30 T144,24 Q180,28 216,20 T288,26 Q324,30 360,22 T432,28 Q468,24 504,30 T576,22 Q612,26 648,20 T720,28 Q756,22 792,28 T864,20 Q900,26 936,22 T1008,28 Q1044,24 1080,30 T1152,22 Q1188,26 1224,20 T1296,28 Q1332,24 1368,30 T1440,24 L1440,72 Z" fill="#4A3F30"></path>
+      <path d="M0,72 L0,28 Q36,22 72,30 T144,24 Q180,28 216,20 T288,26 Q324,30 360,22 T432,28 Q468,24 504,30 T576,22 Q612,26 648,20 T720,28 Q756,22 792,28 T864,20 Q900,26 936,22 T1008,28 Q1044,24 1080,30 T1152,22 Q1188,26 1224,20 T1296,28 Q1332,24 1368,30 T1440,24 L1440,72 Z" fill="var(--bg-dark)"></path>
     </svg>
   </div>
 
 </section>
 
-<section class="index-testimonials-section" data-layout-spec="בית-testimonials" dir="rtl">
-  <div class="index-testimonials-inner">
 
-    <!-- Section Header -->
-    <div class="index-testimonials-header">
-      <h2 class="index-testimonials-title">מה אומרים הלקוחות שלנו</h2>
-      <p class="index-testimonials-intro">כל פורמולה שאנחנו מציעים עוברת דרך ניסיון אמיתי של אנשים שחיפשו שינוי. כאן הם מספרים בעצמם על הדרך לבריאות טבעית — בקולם, בכנות, ומתוך הלב.</p>
-    </div>
-
-    <!-- Ambient Image Strip -->
-    <div class="index-testimonials-strip">
-      <img data-placeholder="index-testimonials-image-1" data-context="A warm, sunlit flat-lay of dried herbs, botanical roots, and glass dropper bottles arranged on a linen cloth — evoking natural herbal medicine and holistic wellness. Soft golden hour light, earthy tones of sage green, amber, and cream. Suitable for a premium Israeli natural health brand specializing in herbal formulas." width="1100" height="220" src="/assets/site-index-testimonials-image-1.webp" alt="צמחי מרפא ופורמולות טבעיות של יוגב בריאות טבעית" class="index-testimonials-strip-img">
-      <div class="index-testimonials-strip-overlay"></div>
-    </div>
-
-    <!-- Testimonial Cards -->
-    <div class="index-testimonials-grid">
-
-      <!-- Card 1 -->
-      <article class="index-testimonials-card">
-        <div class="index-testimonials-quote-icon" aria-hidden="true">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M6 14C6 10.686 8.686 8 12 8H13V11H12C10.343 11 9 12.343 9 14V15H13V24H6V14ZM18 14C18 10.686 20.686 8 24 8H25V11H24C22.343 11 21 12.343 21 14V15H25V24H18V14Z" fill="currentColor"></path>
-          </svg>
-        </div>
-        <blockquote class="index-testimonials-quote">
-          <p>"התחלתי לקחת את הפורמולה לתמיכה חיסונית לפני חצי שנה, ומאז אני מרגישה שינוי אמיתי. הגוף שלי מגיב אחרת, ויש לי הרבה יותר אנרגיה לאורך היום. הייתה לי הרגשה שסוף סוף מישהו מבין מה הגוף שלי צריך."</p>
-        </blockquote>
-        <footer class="index-testimonials-author">
-          <span class="index-testimonials-name">מיכל ר.</span>
-          <span class="index-testimonials-detail">לקוחה קבועה • תמיכה חיסונית</span>
-        </footer>
-      </article>
-
-      <!-- Card 2 -->
-      <article class="index-testimonials-card">
-        <div class="index-testimonials-quote-icon" aria-hidden="true">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M6 14C6 10.686 8.686 8 12 8H13V11H12C10.343 11 9 12.343 9 14V15H13V24H6V14ZM18 14C18 10.686 20.686 8 24 8H25V11H24C22.343 11 21 12.343 21 14V15H25V24H18V14Z" fill="currentColor"></path>
-          </svg>
-        </div>
-        <blockquote class="index-testimonials-quote">
-          <p>"מה שהרשים אותי הוא האיכות. לא מוצרים גנריים — פורמולות צמחים טבעיות שמורכבות בצורה מחושבת ומקצועית. הייתי סקפטי בהתחלה, אבל אחרי חודש של שימוש בפורמולה לשינה, חזרתי לישון כמו שצריך."</p>
-        </blockquote>
-        <footer class="index-testimonials-author">
-          <span class="index-testimonials-name">אריאל כ.</span>
-          <span class="index-testimonials-detail">לקוח חדש • פורמולה לשינה</span>
-        </footer>
-      </article>
-
-      <!-- Card 3 -->
-      <article class="index-testimonials-card">
-        <div class="index-testimonials-quote-icon" aria-hidden="true">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M6 14C6 10.686 8.686 8 12 8H13V11H12C10.343 11 9 12.343 9 14V15H13V24H6V14ZM18 14C18 10.686 20.686 8 24 8H25V11H24C22.343 11 21 12.343 21 14V15H25V24H18V14Z" fill="currentColor"></path>
-          </svg>
-        </div>
-        <blockquote class="index-testimonials-quote">
-          <p>"הכי חשוב לי היה שמישהו יסביר לי מה אני לוקחת ולמה. אצל יוגב בריאות טבעית קיבלתי הסבר ברור, מוצר שמתאים לי ספציפית, ותחושה שהבריאות שלי באמת מעניינת אותם."</p>
-        </blockquote>
-        <footer class="index-testimonials-author">
-          <span class="index-testimonials-name">נועה ש.</span>
-          <span class="index-testimonials-detail">לקוחה ותיקה • בריאות הוליסטית</span>
-        </footer>
-      </article>
-
-    </div>
-    <!-- End Testimonial Cards -->
-
-  </div>
-
-  <!-- Bottom Divider -->
-  <div class="index-testimonials-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="divGrad" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#5F5039" stop-opacity="0"></stop>
-          <stop offset="100%" stop-color="#2F2A24" stop-opacity="1"></stop>
-        </linearGradient>
-      </defs>
-      <path d="M0,90 L0,42 Q80,30 160,46 Q240,58 320,38 Q400,22 480,44 Q540,58 600,40 Q660,24 720,44 Q800,62 880,38 Q960,18 1040,46 Q1120,62 1200,42 L1200,90 Z" fill="var(--bg-dark)"></path>
-      <path d="M0,90 L0,55 Q100,48 200,58 Q300,68 400,52 Q500,38 600,56 Q700,70 800,52 Q900,36 1000,56 Q1100,70 1200,56 L1200,90 Z" fill="var(--bg-dark)" opacity="0.95"></path>
-    </svg>
-  </div>
-
-</section>
 
 <section class="index-cta-section" data-layout-spec="בית-cta" dir="rtl">
   <div class="index-cta-outer">
