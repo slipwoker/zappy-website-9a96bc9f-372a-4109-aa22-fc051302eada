@@ -11510,6 +11510,146 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+.index-benefits-section .ibs-icon {
+  width: 32px !important;
+  height: 32px !important;
+  max-width: 32px !important;
+  max-height: 32px !important;
+  flex-shrink: 0 !important;
+}
+
+.index-benefits-section .ibs-card-icon-wrap {
+  width: 64px !important;
+  height: 64px !important;
+  min-width: 64px !important;
+  min-height: 64px !important;
+  flex-shrink: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: linear-gradient(135deg, rgba(184,111,82,0.14) 0%, rgba(184,111,82,0.07) 100%) !important;
+  border-radius: 18px !important;
+  border: 1px solid rgba(184,111,82,0.22) !important;
+  color: var(--accent-color) !important;
+}
+
+.index-benefits-section .ibs-card {
+  display: grid !important;
+  grid-template-columns: 64px 1fr !important;
+  gap: 20px !important;
+  align-items: start !important;
+  background: #FFFDF8 !important;
+  border: 1px solid #E4D6BD !important;
+  border-radius: 24px !important;
+  padding: 28px !important;
+  box-shadow: 0 4px 14px rgba(112,84,38,0.08) !important;
+  transition: box-shadow 0.25s ease, transform 0.25s ease !important;
+}
+
+.index-benefits-section .ibs-card:hover {
+  box-shadow: 0 10px 28px rgba(112,84,38,0.14) !important;
+  transform: translateY(-3px) !important;
+}
+
+.index-benefits-section .ibs-cards-column {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 20px !important;
+}
+
+.index-benefits-section .ibs-main-layout {
+  display: grid !important;
+  grid-template-columns: 1fr 420px !important;
+  gap: 60px !important;
+  align-items: center !important;
+}
+
+.index-benefits-section .ibs-image-frame {
+  position: relative !important;
+  border-radius: 28px !important;
+  overflow: hidden !important;
+  box-shadow: 0 18px 48px rgba(112,84,38,0.18) !important;
+}
+
+.index-benefits-section .ibs-main-image {
+  display: block !important;
+  width: 100% !important;
+  height: 500px !important;
+  object-fit: cover !important;
+}
+
+.index-benefits-section .ibs-image-badge {
+  position: absolute !important;
+  top: 20px !important;
+  right: 20px !important;
+  z-index: 10 !important;
+  background: #FFFDF8 !important;
+  color: var(--accent-color) !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  padding: 7px 16px !important;
+  border-radius: 999px !important;
+  border: 1.5px solid rgba(184,111,82,0.3) !important;
+  box-shadow: 0 4px 12px rgba(112,84,38,0.12) !important;
+}
+
+.index-benefits-section .ibs-image-caption {
+  position: absolute !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+  background: linear-gradient(0deg, rgba(47,42,36,0.72) 0%, transparent 100%) !important;
+  padding: 28px 20px 18px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  color: #F3EBDD !important;
+  font-size: 14px !important;
+}
+
+.index-benefits-section .ibs-caption-dot {
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50% !important;
+  background: var(--accent-color) !important;
+  flex-shrink: 0 !important;
+  display: inline-block !important;
+}
+
+.index-benefits-section {
+  background: linear-gradient(180deg, #FBF7EF 0%, #F3E9D8 100%) !important;
+  padding: 90px 40px !important;
+}
+
+.index-benefits-section .ibs-title,
+.index-benefits-section .ibs-main-title {
+  font-size: 38px !important;
+  font-weight: 400 !important;
+  line-height: 1.25 !important;
+  color: #5A5535 !important;
+  margin: 0 0 18px !important;
+}
+
+.index-benefits-section .ibs-card-title {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: #4B432F !important;
+  margin: 0 0 8px !important;
+}
+
+.index-benefits-section .ibs-card-text {
+  font-size: 15px !important;
+  line-height: 1.75 !important;
+  color: #6B5F4E !important;
+  margin: 0 !important;
+}
+
+.index-benefits-section .ibs-header {
+  text-align: center !important;
+  max-width: 680px !important;
+  margin: 0 auto 56px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
